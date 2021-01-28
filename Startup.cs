@@ -24,7 +24,7 @@ namespace MyFirstConsoleApp
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapGet("",async context => {
-                    await context.Response.WriteAsync("Hello from webgentle application");
+                    await context.Response.WriteAsync("Aquel amor que marchito mi vida");
                 });
             });
         }
